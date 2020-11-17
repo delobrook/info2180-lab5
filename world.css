@@ -1,1 +1,8 @@
 /* Add your own styles */
+header{
+    background-color: beige;
+    text-align: center;
+}
+main{
+    text-align: center;
+}
