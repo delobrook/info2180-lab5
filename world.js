@@ -7,7 +7,6 @@ window.onload=function(){
         var httpRequest= new XMLHttpRequest();
         var url;
         url="http://localhost/info2180-lab5/world.php"+"?country="+countryname.value;
-        console.log(countryname);
         httpRequest.onreadystatechange=dothis;
         httpRequest.open('GET',url);
         httpRequest.send();
